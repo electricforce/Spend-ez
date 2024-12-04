@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <label for="moneda">Selecciona la moneda:</label>
+        <select id="moneda" class="form-control">
+            <option value="USD">Dólar (USD)</option>
+            <option value="EUR">Euro (EUR)</option>
+            <option value="GBP">Libra (GBP)</option>
+            <option value="JPY">Yen Japonés (JPY)</option>
+            <option value="CAD">Dólar Canadiense (CAD)</option>
+        </select>
+        <button onclick="convertirMontos()" class="btn btn-primary">Convertir Montos</button>
+    </div>
+<table class="table table-bordered table-striped" id="tabla">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Nombre de la Categoría</th>
+            <th>Descripción</th>
+            <th>Monto Estimado</th>
+            <th>Acción</th>
+        </tr>
+    </thead>
+    <tbody id="tbody">
+        <!-- Filas generadas dinámicamente -->
+    </tbody>
+</table>
+    <script src="/js/g.js"></script>
+</body>
+</html>

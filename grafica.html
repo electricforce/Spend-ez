@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/grafica.css">
+    <title>Gráfico de Gastos por Mes</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="nav-bar" id="navbar-container"></div>
+    <div class="alpha">
+        <div class="contenedor">
+            <h1>Gastos por Mes</h1>
+            <div class="configuracion">
+                <label for="anio">Seleccionar Año: </label>
+                <select id="anio">
+                    
+                </select>
+            </div>
+            <div class="grafica-container">
+                <canvas id="gastosChart"></canvas>
+            </div>
+        </div>
+    </div>
+    <script src="js/grafica.js"></script>
+    <script src="js/navbar.js"></script>
+</body>
+</html>
